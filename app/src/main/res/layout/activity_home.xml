@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/tvakun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:paddingTop="10dp"
+        android:text="Akun Saya"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:paddingTop="15dp"
+        android:text="Hey Efva!"
+        android:textAlignment="center"
+        android:textColor="#FF000000"
+        android:textSize="40dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:clickable="true"
+            android:onClick="efvaa1"
+            android:src="@drawable/efva1"
+            />
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp"></View>
+
+        <ImageView
+            android:id="@+id/iconram"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:clickable="true"
+            android:onClick="efvaa2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/efva2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconvga"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="efvaa3"
+            android:layout_width="170dp"
+            android:src="@drawable/efva3"
+            android:layout_height="170dp"
+            />
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp">
+
+        </View>
+        <ImageView
+            android:id="@+id/iconwater"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="efvaa4"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/efva4"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconfan"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="efvaa5"
+            android:layout_width="170dp"
+            android:src="@drawable/efva5"
+            android:layout_height="170dp"
+            />
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp">
+
+        </View>
+        <ImageView
+            android:id="@+id/iconcasing"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="efvaa6"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/efva6"
+            />
+    </LinearLayout>
+
+</LinearLayout>
